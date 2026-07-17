@@ -1,0 +1,27 @@
+{
+  "name": "genpark-exploreyc-startup-matcher-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - ExploreYC startup investment profile scanner.",
+  "author": "genpark",
+  "category": "finance",
+  "tags": [
+    "yc",
+    "vc",
+    "exploreyc"
+  ],
+  "inputs": {
+    "industry_preference": {
+      "type": "string"
+    },
+    "min_funding_stage": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "matched_companies": {
+      "type": "array"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
